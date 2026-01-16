@@ -14,10 +14,10 @@ export async function POST(req: Request) {
 
   try {
     await resend.emails.send({
-      from: "Portfolio <onboarding@resend.dev>",
-      to: ["esteban2306@gmail.com"],
-      subject: `New message from ${name}`,
-      replyTo: 'esteban2306@gmail.com',
+       from: "Esteban Portfolio <contact@estebancl.dev>",
+        to: ["luis.esteban.castaneda.luque@gmail.com"],
+        subject: `New message from ${name}`,
+        replyTo: email,
       html: `
         <h2>New Contact Message</h2>
         <p><strong>Name:</strong> ${name}</p>

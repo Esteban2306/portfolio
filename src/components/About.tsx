@@ -72,7 +72,7 @@ const About = () => {
             </p>
 
             <div className="pt-4">
-              <p className="text-sm text-muted-foreground mb-3">cyan-500 technologies:</p>
+              <p className="text-sm text-muted-foreground mb-3">primary technologies:</p>
               <div className="flex flex-wrap gap-2">
                 {["TypeScript", "React", "Node.js", "PostgreSQL", "MongoDB"].map((tech) => (
                   <span
