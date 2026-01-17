@@ -116,7 +116,6 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
         </div>
       </div>
 
-      {/* BOTTOM LINE — FIXED */}
       <div className="absolute bottom-0 left-0 h-1 w-full overflow-hidden">
         <span
           className="
